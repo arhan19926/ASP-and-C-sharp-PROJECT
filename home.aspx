@@ -37,14 +37,7 @@
         
         
         style="width: 733px; margin-left: 2px; height: 28px;">
-                    <asp:LinkButton ID="LinkButton1" runat="server" onclick="LinkButton1_Click" 
-                        Font-Bold="True" ForeColor="#003366" Height="20px">Admin Login</asp:LinkButton>
-                    &nbsp;&nbsp;
-                    <asp:LinkButton ID="LinkButton2" runat="server" onclick="LinkButton2_Click" 
-                        Font-Bold="True" ForeColor="#003366" Height="20px">User Login</asp:LinkButton>
-                    &nbsp;&nbsp;
-                    <asp:LinkButton ID="LinkButton3" runat="server" onclick="LinkButton3_Click" 
-                        Font-Bold="True" ForeColor="#003366" Height="20px">User sign up</asp:LinkButton>
+                    
     </div>
     <br />
     <div align="left" class="auto-style6">
@@ -54,7 +47,7 @@
         </div>
         <div 
         align="center" class="auto-style5">
-            <asp:Label ID="Label1" runat="server" Font-Bold="True" ForeColor="#CC6600" 
+            <asp:Label ID="Label1" runat="server" Font-Bold="True" ForeColor="black" 
                 Text="HISTORY"></asp:Label>
             <br />
             <br />

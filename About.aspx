@@ -13,7 +13,7 @@
             LPU is a  Educational Institution 
     managed and controlled by more than 100 years old College 
      of Lucknow, 
-    Society also governs my College which was founded in 2017 by LPU, a missionary who was its first Dean.
+    Society also governs my College which was founded in 1999 by LPU, a missionary who was its first Dean.
     LPU is an Autonomous College since 1994 associated with University of 
     India offering Bachelor’s Degree Courses in Arts and Science discipline. 
     LPU also offers several diploma programmes like Post Graduate Diploma in 

@@ -19,7 +19,7 @@
  </script>
 <html>
 <head runat="server">
-    <title>College Website</title>
+    <title>UMS LPU</title>
     <link href="Styles/Site.css" rel="stylesheet" />
 
     <asp:ContentPlaceHolder id="HeadContent" runat="server">
@@ -61,7 +61,7 @@
                     <asp:Image ID="Image1" runat="server" Height="87px" ImageUrl="~/IMAGES/a10.jpg" Width="1069px" />
                 </h1>
                 <h1 align="center" style="background-color: #003366; width: 1087px;">
-                   COLLEGE WEBSITE</h1>
+                   Lovely Professional University</h1>
             </div>
             <div class="clear hideSkiplink" style="background-color: #003366">
                 <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" 
@@ -74,13 +74,8 @@
                         <asp:MenuItem Text="Contact Us" Value="Contact Us" NavigateUrl="~/contact.aspx" ></asp:MenuItem>
                         <asp:MenuItem Text="Courses" Value="Courses" NavigateUrl="~/courseview.aspx">
                         </asp:MenuItem>
-                        <asp:MenuItem Text="Photo Gallery" Value="Photo Gallery">
-                            <asp:MenuItem Text="Student" Value="Student" 
-                                NavigateUrl="~/administrater/stu.aspx"></asp:MenuItem>
-                            <asp:MenuItem Text="Faculty" Value="Faculty" 
-                                NavigateUrl="~/administrater/faca.aspx"></asp:MenuItem>
-                            <asp:MenuItem Text="Others" Value="Others" 
-                                NavigateUrl="~/administrater/oth.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Photo Gallery" Value="Photo Gallery" NavigateUrl="~/photos.aspx">
+                           
                         </asp:MenuItem>
                     </Items>
                 </asp:Menu>
