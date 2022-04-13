@@ -51,13 +51,15 @@
                 Text="HISTORY"></asp:Label>
             <br />
             <br />
-            MYCollege Educational Institution managed and controlled by 
-            more than 4 year College Society consisting of the  Lucknow,  College Society also governs my college which was founded in 1902 by coder baba, a missionary who was 
-            its first Principal. My College is an Autonomous College since 1994 
-            associated with University of Allahabad offering Bachelor’s Degree Courses in 
-            Arts and Science discipline. The College also offers several diploma programmes 
+             <asp:Label ID="Label2" runat="server" Font-Bold="True" ForeColor="black" 
+                Text=" Lovely Professional University Educational Institution managed and controlled by 
+            more than 4 year College Society consisting of the Punjab,  College Society also governs Lovely Professional Unviersity which was founded in 1974 by Ashok Mittal, a missionary who was 
+            its first Principal. LPU is an Autonomous College since 2005
+            associated with Lovely Professional University Punjab offering Bachelor’s Degree Courses in 
+            Arts and Science discipline. LPU also offers several diploma programmes 
             like Post Graduate Diploma in Computer Aplications, Post Graduate Diploma in 
-            Business Management, Diploma in Secretarial Practices, etc
+            Business Management, Diploma in Secretarial Practices, etc"></asp:Label>
+           
 </div>
 </form>
 

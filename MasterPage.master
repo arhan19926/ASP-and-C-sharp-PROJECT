@@ -57,16 +57,16 @@
         <div class="header" 
             style="background-color: #FFFFFF; top: 0px; left: 2px; height: 712px;">
             <div class="title">
-                <h1 style="background-color: #003366; width: 1087px;">
+                <h1 style="background-color: orange; width: 1087px;">
                     <asp:Image ID="Image1" runat="server" Height="87px" ImageUrl="~/IMAGES/a10.jpg" Width="1069px" />
                 </h1>
-                <h1 align="center" style="background-color: #003366; width: 1087px;">
+                <h1 align="center" style="background-color:orange; width: 1087px;color:black">
                    Lovely Professional University</h1>
-            </div>
-            <div class="clear hideSkiplink" style="background-color: #003366">
+            </div>  
+            <div class="clear hideSkiplink" style="background-color: #edc864">
                 <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" 
                     EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal" 
-                    BackColor="#00CCFF" BorderStyle="Solid" Font-Bold="True" ForeColor="White">
+                    BackColor="#edc864" BorderStyle="Solid" Font-Bold="True" ForeColor="White">
                     <Items>
                         <asp:MenuItem NavigateUrl="~/home.aspx" Text="Home"/>
                         <asp:MenuItem NavigateUrl="~/About.aspx" Text="About">
@@ -84,50 +84,46 @@
                 &nbsp;</div>
             <div class="auto-style2">
             <table cellpadding="1" cellspacing="1" 
-    style="border: thick double #000000; width: 154px; color: #FFFFFF; background-color: #003366; font-weight: bold;" 
+    style="border: thick double #000000; width: 154px; color: black; background-color: #1c4773; font-weight: bold;" 
     border="1">
     <tr>
         <td class="auto-style4">
             <asp:HyperLink ID="HyperLink1" runat="server" Width="170px" 
-                Font-Underline="False" Font-Bold="True" ForeColor="White" 
+                Font-Underline="False" Font-Bold="false" ForeColor="white" 
                 Font-Names="Mangal" NavigateUrl="~/quespa.aspx" Height="25px">Question Papers</asp:HyperLink></td>
     </tr>
     <tr>
         <td style="width: 100px">
             <asp:HyperLink ID="HyperLink2" runat="server" Width="168px" 
-                Font-Underline="False" Font-Bold="True" ForeColor="White" 
+                Font-Underline="False" Font-Bold="false" ForeColor="white" 
                 Font-Names="Mangal" NavigateUrl="~/coudev.aspx" Height="26px">Course Development</asp:HyperLink></td>
     </tr>
     <tr>
-        <td class="auto-style3">
+        <td  style="width: 100px">
             <asp:HyperLink ID="HyperLink3" runat="server" Width="168px" 
-                Font-Underline="False" Font-Bold="True" ForeColor="White" 
+                Font-Underline="False" Font-Bold="false" ForeColor="white" 
                 Font-Names="Mangal" NavigateUrl="~/lerning.aspx" Height="30px">Learning Chart</asp:HyperLink></td>
     </tr>
     <tr>
         <td style="width: 100px">
             <asp:HyperLink ID="HyperLink5" runat="server" Width="169px" 
-                Font-Underline="False" Font-Bold="True" ForeColor="White" 
+                Font-Underline="False" Font-Bold="false" ForeColor="white" 
                 Font-Names="Mangal" NavigateUrl="~/academic.aspx" Height="27px">Academic Counsil Members</asp:HyperLink></td>
     </tr>
 
     <tr>
         <td style="width: 100px">
             <asp:HyperLink ID="HyperLink9" runat="server" Width="168px" 
-                Font-Underline="False" Font-Bold="True" ForeColor="White" 
+                Font-Underline="False" Font-Bold="false" ForeColor="white" 
                 Font-Names="Mangal" NavigateUrl="~/instruction.aspx" Height="26px">General Instructions</asp:HyperLink></td>
     </tr>
     <tr>
         <td style="width: 100px">
             <asp:HyperLink ID="HyperLink10" runat="server" Width="167px" 
-                Font-Underline="False" Font-Bold="True" ForeColor="White" 
+                Font-Underline="False" Font-Bold="false" ForeColor="white" 
                 Font-Names="Mangal" NavigateUrl="~/courseview.aspx" Height="32px">Fees Structure</asp:HyperLink></td>
     </tr>
-    <tr>
-    <td class="auto-style1">
     
-    </td>
-    </tr>
 </table>
             </div>
             <div class="main" style="float: right">
